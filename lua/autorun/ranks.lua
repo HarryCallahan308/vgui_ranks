@@ -1,6 +1,23 @@
 if not CLIENT then return end
 
-PANEL = {}
+--[[
+
+	DCOLLAPSIBLECATEGORY WORK
+
+]]
+
+
+
+
+
+--[[
+
+	DFRAME WORK
+
+]]
+
+
+local PANEL = {}
 
 local sw, sh = ScrW(), ScrH()
 
