@@ -2,7 +2,7 @@ if not CLIENT then return end
 
 PANEL = {}
 
-local sw, sh = ScrW(), ScrH
+local sw, sh = ScrW(), ScrH()
 
 -- Add materials
 function PANEL:Init()
