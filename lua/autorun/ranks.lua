@@ -1,3 +1,4 @@
+
 local rankOrder = {"Owner", "Admin", "Developer", "Moderator", "Sentinel", "Gallant", "Exalted", "Ardent", "Devotee", "Regular", "User"}
 
 local ranks = {
@@ -85,6 +86,20 @@ local rankColors = {}
 for _, teamInfo in pairs( team.GetAllTeams() ) do
 	rankColors[teamInfo.Name] = teamInfo.Color
 end
+
+// this better work
+
+if not CLIENT then return end
+
+--[[
+
+	DCOLLAPSIBLECATEGORY WORK
+
+]]
+
+
+
+
 
 surface.CreateFont( "CFC_RankName", {
     font = "DermaLarge",
