@@ -244,5 +244,5 @@ vgui.Register( "CFC_RankInfoFrame", RankInfoFrame, "DFrame" )
 -- Concommand
 
 concommand.Add("CFC_RanksOpen", function()
-	local MyRankInfoFrame = vgui.Create( "CFC_RankInfoFrame" )
+	MyRankInfoFrame = vgui.Create( "CFC_RankInfoFrame" )
 end)
